@@ -10,8 +10,8 @@ from PIL import Image
 @st.cache_resource
 def load_models():
     face_detector = dlib.get_frontal_face_detector()
-    pose_predictor = dlib.shape_predictor("posePredictor.dat")
-    face_encoder = dlib.face_recognition_model_v1("dlib_face_recognition_resnet_model_v1.dat")
+    pose_predictor = dlib.shape_predictor(".\models\posePredictor.dat")
+    face_encoder = dlib.face_recognition_model_v1(".\models\dlib_face_recognition_resnet_model_v1.dat")
     return face_detector, pose_predictor, face_encoder
 
 face_detector, pose_predictor, face_encoder = load_models()
