@@ -83,7 +83,7 @@ You can type in a custom **similarity threshold** (default: `0.6`) in the app.
 | `> 0.6`         | Likely different people |
 
 ---
-## 📸 Sample Usage
+## Sample Usage
 
 - Set the similarity threshold
   
@@ -104,8 +104,20 @@ You can type in a custom **similarity threshold** (default: `0.6`) in the app.
 
 ---
 
-## 👤 Author
+## Author
 
 **Bhoomika Agrawal**  
 [🔗 GitHub](https://github.com/bhoomikaagrawal16)  
 [🔗 LinkedIn](https://www.linkedin.com/in/bhoomikaagrawal)
+
+---
+
+## Attribution
+
+This project was inspired by a facial recognition article/code snippet using `dlib`, found online. Some encoding logic and similarity calculation methods were adapted from that example.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
